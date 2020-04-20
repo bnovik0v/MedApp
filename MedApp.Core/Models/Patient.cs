@@ -7,12 +7,12 @@ namespace MedApp.Core.Models
     {
         public Patient()
         {
-            CaseReports = new Collection<CaseReport>();
+            CaseReports = new Collection<Patient>();
         }
 
         public int Id { get; set; }
-        public int FullName { get; set; }
-        public ICollection<CaseReport> CaseReports { get; set; }
+        public string FullName { get; set; }
+        public ICollection<Patient> CaseReports { get; set; }
 
     }
 }

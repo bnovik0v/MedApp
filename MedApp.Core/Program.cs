@@ -1,4 +1,5 @@
 ﻿using System;
+using MedApp.Core.Models;
 
 namespace MedApp.Core
 {
@@ -6,7 +7,9 @@ namespace MedApp.Core
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
+
+            
         }
     }
 }

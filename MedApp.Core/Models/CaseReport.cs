@@ -1,5 +1,4 @@
-﻿
-namespace MedApp.Core.Models
+﻿namespace MedApp.Core.Models
 {
     public class CaseReport
     {
