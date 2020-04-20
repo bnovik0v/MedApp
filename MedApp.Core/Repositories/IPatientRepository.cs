@@ -4,7 +4,7 @@ using MedApp.Core.Models;
 
 namespace MedApp.Core.Repositories
 {
-    public interface IArtistRepository : IRepository<Patient>
+    public interface IPatientRepository : IRepository<Patient>
     {
         Task<Patient> GetWithCaseReportByIdAsync(int id);
         Task<IEnumerable<Patient>> GetAllWithCaseReportAsync();
