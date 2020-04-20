@@ -1,7 +1,7 @@
 ﻿
 namespace MedApp.Core.Models
 {
-    class CaseReport
+    public class CaseReport
     {
         public int Id { get; set; }
         public int PatientId { get; set; }
