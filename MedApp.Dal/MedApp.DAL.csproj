@@ -17,4 +17,8 @@
     <ProjectReference Include="..\MedApp.Core\MedApp.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migration\" />
+  </ItemGroup>
+
 </Project>
