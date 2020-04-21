@@ -10,7 +10,7 @@ namespace MedApp.API.Validators
             const int maxLength = 50;
             const string errorMsg = "'Patient Id' must be greater than 0.";
 
-            RuleFor(m => m.Name).NotEmpty().MaximumLength(maxLength);
+            RuleFor(m => m.Diagnosis).NotEmpty().MaximumLength(maxLength);
 
             RuleFor(m => m.PatientId).NotEmpty().WithMessage(errorMsg);
         }

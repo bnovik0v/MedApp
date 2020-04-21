@@ -2,6 +2,6 @@
 {
     public class SavePatientResource
     {
-        public string Name { get; set; }
+        public string FullName { get; set; }
     }
 }

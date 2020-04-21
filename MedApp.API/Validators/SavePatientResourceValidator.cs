@@ -9,7 +9,7 @@ namespace MedApp.API.Validators
         {
             const int maxLength = 50;
 
-            RuleFor(a => a.Name).NotEmpty().MaximumLength(maxLength);
+            RuleFor(a => a.FullName).NotEmpty().MaximumLength(maxLength);
         }
     }
 }
