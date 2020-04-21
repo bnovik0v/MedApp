@@ -55,7 +55,7 @@ namespace MedApp.BLL
 
             var caseReportToBeUpdated = await GetCaseReportById(id);
             caseReportToBeUpdated.Diagnosis = caseReport.Diagnosis;
-            caseReportToBeUpdated.Diagnosis = caseReport.Description;
+            caseReportToBeUpdated.Description = caseReport.Description;
             caseReportToBeUpdated.PatientId = caseReport.PatientId;
 
             await _unitOfWork.CommitAsync();

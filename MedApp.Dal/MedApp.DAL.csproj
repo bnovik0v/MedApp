@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MedApp.Core\MedApp.Core.csproj" />
+    <ProjectReference Include="..\MedApp.Core\MedApp.Core.csproj" />  
   </ItemGroup>
 
 </Project>

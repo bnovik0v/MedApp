@@ -26,7 +26,7 @@ namespace MedApp.DAL.Migrations
 
             migrationBuilder.Sql("INSERT INTO CaseReports (Diagnosis, PatientId) Values ('AIDS', (SELECT Id FROM Patients WHERE FullName = 'Solnzev'))");
 
-            migrationBuilder.Sql("INSERT INTO CaseReports (Diagnosis, PatientId) Values ('asthma', (SELECT Id FROM Patients WHERE FullName = 'Solnzev'))");
+            migrationBuilder.Sql("INSERT INTO CaseReports (Diagnosis, PatientId) Values ('astha', (SELECT Id FROM Patients WHERE FullName = 'Solnzev'))");
 
             migrationBuilder.Sql("INSERT INTO CaseReports (Diagnosis, PatientId) Values ('allergy', (SELECT Id FROM Patients WHERE FullName = 'Solnzev'))");
 
