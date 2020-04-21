@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedApp.BLL", "MedApp.BLL\Me
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedApp.DAL", "MedApp.Dal\MedApp.DAL.csproj", "{1881C627-041B-4647-AF2A-1F4830168B36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedApp.BLL.Test", "MedApp.BLL.Test\MedApp.BLL.Test.csproj", "{785BA17F-BFCE-4C50-AF75-545E4A29AEB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedApp.BLL.Test", "MedApp.BLL.Test\MedApp.BLL.Test.csproj", "{785BA17F-BFCE-4C50-AF75-545E4A29AEB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedApp.API", "MedApp.API\MedApp.API.csproj", "{16E31502-7464-4606-BE91-E85C2E40E325}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{785BA17F-BFCE-4C50-AF75-545E4A29AEB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{785BA17F-BFCE-4C50-AF75-545E4A29AEB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{785BA17F-BFCE-4C50-AF75-545E4A29AEB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E31502-7464-4606-BE91-E85C2E40E325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E31502-7464-4606-BE91-E85C2E40E325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E31502-7464-4606-BE91-E85C2E40E325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E31502-7464-4606-BE91-E85C2E40E325}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

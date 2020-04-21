@@ -9,7 +9,7 @@ namespace MedApp.DAL
     {
         private readonly MedAppDbContext _context;
         private CaseReportRepository _caseReportRepository;
-        private PatientRepository _artistRepository;
+        private PatientRepository _patientRepository;
 
         public UnitOfWork(MedAppDbContext context)
         {
@@ -18,7 +18,7 @@ namespace MedApp.DAL
 
         public ICaseReportRepository CaseReports => _caseReportRepository ??= new CaseReportRepository(_context);
 
-        public IPatientRepository Patients => _artistRepository ??= new PatientRepository(_context);
+        public IPatientRepository Patients => _patientRepository ??= new PatientRepository(_context);
 
         public async Task<int> CommitAsync()
         {
