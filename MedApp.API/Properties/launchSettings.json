@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "MusicApp.API": {
+    "CaseReportApp.API": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "index.html",
