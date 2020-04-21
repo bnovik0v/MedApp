@@ -48,11 +48,14 @@ namespace MedApp.BLL
             if (!await _unitOfWork.CaseReports.IsExists(id))
                 throw new NullReferenceException();
 
-            if (caseReport.Diagnosis.Length <= 0 || caseReport.Diagnosis.Length > 50 || caseReport.PatientId <= 0)
+            if (caseReport.Diagnosis.Length <= 0 || caseReport.Diagnosis.Length > 50 
+                || caseReport.Description.Length <= 0 || caseReport.Description.Length >= 100
+                || caseReport.PatientId <= 0)
                 throw new InvalidDataException();
 
             var caseReportToBeUpdated = await GetCaseReportById(id);
             caseReportToBeUpdated.Diagnosis = caseReport.Diagnosis;
+            caseReportToBeUpdated.Diagnosis = caseReport.Description;
             caseReportToBeUpdated.PatientId = caseReport.PatientId;
 
             await _unitOfWork.CommitAsync();
